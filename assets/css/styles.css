@@ -1,8 +1,8 @@
 /* Estilos básicos da Landing Page Scrum */
 
 :root {
-    --azul: #2563eb;
-    --azul-escuro: #1e3a8a;
+    --laranja: #eb6425;
+    --vermelho-escuro: #8a1e1e;
     --fundo: #f1f5f9;
     --branco: #ffffff;
     --texto: #334155;
@@ -23,7 +23,7 @@ body {
 /* Cabeçalho */
 .site-header {
     padding: 60px 20px;
-    background: linear-gradient(135deg, var(--azul-escuro), var(--azul));
+    background: linear-gradient(135deg, var(--vermelho-escuro), var(--laranja));
     color: var(--branco);
     text-align: center;
 }
@@ -49,7 +49,7 @@ section {
 }
 
 h2 {
-    color: var(--azul-escuro);
+    color: var(--vermelho-escuro);
 }
 
 /* Seção sobre o Scrum */
@@ -69,7 +69,7 @@ h2 {
 
 .roles-grid article {
     padding: 20px;
-    border-top: 4px solid var(--azul);
+    border-top: 4px solid var(--laranja);
     border-radius: 8px;
     background: var(--branco);
     box-shadow: 0 3px 10px #0002;
@@ -83,7 +83,7 @@ h2 {
 
 .roles-grid h3 {
     margin-top: 0;
-    color: var(--azul);
+    color: var(--laranja);
 }
 
 /* Eventos do Scrum */
@@ -97,7 +97,7 @@ h2 {
 
 .events-timeline li {
     padding: 15px;
-    border-left: 4px solid var(--azul);
+    border-left: 4px solid var(--laranja);
     background: var(--branco);
 }
 
